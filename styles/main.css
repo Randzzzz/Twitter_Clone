@@ -1,0 +1,136 @@
+.outer{
+display: flex;
+flex-direction: row;
+}
+.container1{
+    padding: 170px 100px;
+    display: flex;
+    background-color: black;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+.twitter-logo{
+    width: 600px;
+    height: 550px;
+    object-fit: cover;
+}
+.container2{
+    background-color: black;
+    flex: 1;
+    padding-top: 120px;
+    padding-left: 40px;
+}
+.text1{
+    font-size: 70px;
+    font-weight: 700;
+    color: white;
+    letter-spacing: 1px;
+    margin-top: 72px;
+    margin-bottom: 50px;
+
+}
+.text2{
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+    letter-spacing: 1px;
+    margin-bottom: 28px;
+}
+.btn-container{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+.btn-container img{
+    height: 18px;
+    width: 18px;
+    margin-right: 5px;
+}
+.signupBtn-google,
+.signupBtn-apple,
+.createBtn,
+.signBtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: white;
+    font-size: 13px;
+    letter-spacing: 0.8px;
+    padding: 11px 20px;
+    border-radius: 30px;
+    margin-bottom: 8px;
+}
+.signupBtn-google{
+    color: rgb(26, 26, 26);
+    font-weight: 600;
+    transition: background-color 0.3s;
+}
+.signupBtn-google:hover{
+    cursor: pointer;
+    background-color: rgb(240, 240, 240);
+}
+.signupBtn-apple{
+    font-weight: bold;
+    color: black;
+    transition: background-color 0.3s;
+}
+.signupBtn-apple:hover{
+    cursor: pointer;
+    background-color: rgb(240, 240, 240);
+}
+.btn-container .or{
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid rgb(48, 48, 48); 
+    line-height: 1.6px;
+    margin: 10px 0 20px; 
+}
+.btn-container .or span{
+    background:black; 
+    color: white;
+    padding:0 10px; 
+}
+.createBtn{
+    color: white;
+    background-color: rgb(29, 155, 240);
+    font-weight: 700;
+    font-size: 14px;
+    transition: background-color 0.3s;
+}
+.createBtn:hover{
+    cursor: pointer;
+    background-color: rgb(3, 133, 219);
+}
+.policy-text{
+    font-size: 10px;
+    font-weight: 500;
+    display: inline;
+    color: rgb(124, 124, 124);
+    margin-bottom: 60px;
+}
+.policy-text-link{
+    color: rgb(29, 155, 240);
+    text-decoration: none;
+}
+.policy-text-link:hover{
+    text-decoration: underline;
+}
+.sign-text{
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.signBtn{
+    font-weight: 700;
+    color: rgb(29, 155, 240);
+    background-color: black;
+    border: 0.5px solid rgb(153, 153, 153);
+    transition: background-color 0.3s;
+}
+.signBtn:hover{
+    cursor: pointer;
+    background-color: rgba(29, 155, 240, 0.1);
+}

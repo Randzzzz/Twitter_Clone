@@ -1,0 +1,37 @@
+@media(max-width:1270px){
+    .outer{
+        position: relative;
+    }
+    .twitter-logo{
+        width: 300px;
+        height: 300px;
+    }
+    .container2{
+        margin-right: 50px;
+
+    }
+}
+@media(max-width:970px){
+    .outer{
+        position: relative;
+    }
+    .twitter-logo{
+        width: 100px;
+        height: 100px;
+    }
+}
+@media(max-width:750px){
+    .outer{
+        position: relative;
+    }
+    .container1{
+        position: absolute;
+        padding: 0;
+        top: 0;
+        left: 0;
+    }
+    .twitter-logo{
+        width: 80px;
+        height: 80px;
+    }
+}

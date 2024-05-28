@@ -1,0 +1,20 @@
+.footer-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.footer-container p{
+    font-family: Arial;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    margin: 7px 7px;
+    color: rgb(124, 124, 124);
+}
+.footer-container p a{
+    font-family: Arial;
+    color: rgb(124, 124, 124);
+    text-decoration: none;
+}
+.footer-container p a:hover{
+    text-decoration: underline;
+}
